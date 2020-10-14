@@ -1,7 +1,8 @@
 namespace write {
-public class Write {
-public List<string> getletters(bool returnthing) {
-  List<string> l = new List<string>();
+  using oWOSYSTEMCOLLECTIONSGENERICOWO = System.Collections.Generic;
+  public class Write {
+public oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> getletters(bool returnthing) {
+  oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> l = new oWOSYSTEMCOLLECTIONSGENERICOWO.List<string>();
   l[0]=@"a";
   l[1]=@"b";
   l[2]=@"c";
@@ -47,7 +48,7 @@ public List<string> getletters(bool returnthing) {
     string b = a;
     string c = "";
     int i = 0;
-    List<string> letters = getletters(!true);
+    oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> letters = getletters(!true);
     Console.WriteLine(b);  
   }
 }
