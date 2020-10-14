@@ -1,61 +1,62 @@
 namespace write {
   using oWOSYSTEMCOLLECTIONSGENERICOWO = System.Collections.Generic;
+  using sistm = System;
   public class Write {
-public oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> getletters(bool returnthing) {
+static public oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> getletters(bool returnthing) {
   oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> l = new oWOSYSTEMCOLLECTIONSGENERICOWO.List<string>();
-  l[0]=@"a";
-  l[1]=@"b";
-  l[2]=@"c";
-  l[3]=@"d";
-  l[4]=@"e";
-  l[5]=@"f";
-  l[6]=@"g";
-  l[7]=@"h";
-  l[8]=@"i";
-  l[9]=@"j";
-    l[10]=@"k";
-    l[11]=@"l";
-  l[12]=@"m";
-  l[13]=@"n";
-  l[14]=@"o";
-  l[15]=@"p";
-  l[16]=@"q";
-  l[17]=@"r";
-  l[18]=@"s";
-  l[19]=@"t";
-  l[20]=@"u";
-  l[21]=@"v";
-  l[22]=@"x";
-  l[23]=@"y";
-  l[24]=@"and";
-  l[25]=@"z";
-  l[26]=@"now";
-  l[27]=@"i";
-  l[28]=@"know";
-  l[29]=@"my";
-  l[30]=@"abcs";
-  l[31]=@"next";
-    l[32]=@"time";
-    l[33]=@"won't";
-    l[34]=@"you";
-    l[35]=@"sing";
-    l[36]=@"with";
-    l[37]=@"me";
+  l.Add(@"a");
+  l.Add(@"b");
+  l.Add(@"c");
+  l.Add(@"d");
+  l.Add(@"e");
+  l.Add(@"f");
+  l.Add(@"g");
+  l.Add(@"h");
+  l.Add(@"i");
+  l.Add(@"j");
+l.Add(@"k");
+l.Add(@"l");
+  l.Add(@"m");
+  l.Add(@"n");
+  l.Add(@"o");
+  l.Add(@"p");
+  l.Add(@"q");
+  l.Add(@"r");
+  l.Add(@"s");
+  l.Add(@"t");
+    l.Add(@"u");
+  l.Add(@"v");
+  l.Add(@"x");
+  l.Add(@"y");
+  l.Add(@"and");
+  l.Add(@"z");
+  l.Add(@"now");
+  l.Add(@"i");
+  l.Add(@"know");
+  l.Add(@"my");
+  l.Add(@"abcs");
+  l.Add(@"next");
+l.Add(@"time");
+    l.Add(@"won't";)
+    l.Add(@"you");
+    l.Add(@"sing");
+    l.Add(@"with");
+    l.Add(@"me");
     return l;
   }
   
-  public void writeout(string a) {
+  static public void writeout(string a) {
     string b = a;
     string c = "";
     int i = 0;
     oWOSYSTEMCOLLECTIONSGENERICOWO.List<string> letters = getletters(!true);
-    Console.WriteLine(b);  
+    sistm.Console.WriteLine(b);  
   }
 }
 }
 
 class oh {
-static void main() {
-write.Write("Hello World");
+static void Main() {
+write.Write.writeout("Hello World");
 }
 }
