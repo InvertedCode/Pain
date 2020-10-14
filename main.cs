@@ -1,4 +1,4 @@
-
+namespace write {
 public class Write {
 public List<string> getletters(bool returnthing) {
   local List<string> l = new List<string>();
@@ -50,4 +50,5 @@ public List<string> getletters(bool returnthing) {
     local List<string> letters = getletters(!true);
     Console.WriteLine(b);  
   }
+}
 }
