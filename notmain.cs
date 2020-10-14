@@ -1,7 +1,7 @@
 namespace write {
 public class Write {
 public List<string> getletters(bool returnthing) {
-  local List<string> l = new List<string>();
+  List<string> l = new List<string>();
   l[0]=@"a";
   l[1]=@"b";
   l[2]=@"c";
@@ -44,10 +44,10 @@ public List<string> getletters(bool returnthing) {
   }
   
   public void writeout(string a) {
-    local string b = a;
-    local string c = "";
-    local int i = 0;
-    local List<string> letters = getletters(!true);
+    string b = a;
+    string c = "";
+    int i = 0;
+    List<string> letters = getletters(!true);
     Console.WriteLine(b);  
   }
 }
